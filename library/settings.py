@@ -81,12 +81,12 @@ DATABASES = {
     # }
 
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Tours',
-        'USER': 'Tours',
-        'PASSWORD': 'Tours',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd5f9oio77blhdk',
+        'USER': 'ncuibybuuihbgw',
+        'PASSWORD': '22851acd23abafa1fb67f879ee684cab74f2914138ce3d3c5ee58bd77c397ce3',
+        'HOST': 'ec2-54-146-82-179.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
